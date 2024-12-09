@@ -1,10 +1,4 @@
-variable "access_key" { #Todo: uncomment the default value and add your access key.
-        description = "Access key to AWS console"
-}
 
-variable "secret_key" {  #Todo: uncomment the default value and add your secert key.
-        description = "Secret key to AWS console"
-}
 
 variable "ami_key_pair_name" { #Todo: uncomment the default value and add your pem key pair name. Hint: don't write '.pem' exction just the key name
         default = "samailawsclassroom"
